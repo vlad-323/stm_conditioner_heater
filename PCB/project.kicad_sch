@@ -8725,7 +8725,7 @@
 		(dnp no)
 		(uuid "09e4beb9-3222-41ca-ad8a-b2e11dc366fc")
 		(property "Reference" "R2"
-			(at 16.51 76.1999 0)
+			(at 24.13 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8733,8 +8733,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 16.51 78.7399 0)
+		(property "Value" "510"
+			(at 25.146 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10046,7 +10046,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1k 0.1%"
 			(at 37.084 141.986 90)
 			(effects
 				(font
@@ -10546,7 +10546,7 @@
 		(dnp no)
 		(uuid "48ba4b2e-44e7-40d1-bd29-b8ed3d443360")
 		(property "Reference" "R1"
-			(at 16.51 64.7699 0)
+			(at 23.368 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10554,8 +10554,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 16.51 67.3099 0)
+		(property "Value" "not install"
+			(at 30.734 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11116,14 +11116,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 25.4 88.8999 0)
+		(property "Value" "22pF"
+			(at 27.178 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -11261,14 +11260,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 35.56 88.8999 0)
+		(property "Value" "22pF"
+			(at 36.83 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -11810,7 +11808,7 @@
 				)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "3k 0.1%"
 			(at 37.084 153.416 90)
 			(effects
 				(font
@@ -12698,7 +12696,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "390"
 			(at 30.734 133.604 90)
 			(effects
 				(font
@@ -13585,14 +13583,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 31.75 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -15672,7 +15669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 33.02 46.9899 0)
 			(effects
 				(font

@@ -1,2 +1,11 @@
 # stm_conditioner_heater
- This device control heating a compressor and pallet
+ Прилад дозволяє керувати компресором, обігрівом компресора та обігрівом піддона.
+ # Схема електрична принципова
+![project](https://github.com/user-attachments/assets/11e741db-1e82-45ee-8e99-df7f1d94d5df)
+ # Зовнішній вигляд приладу
+
+ # Логіка роботи
+ 1. Ініціалізація усіх входів та виходів
+ 2. Якщо вхід компресора вимкнений -> компресор і ТЕН компресора вимкнені
+ 3. work in progress...
+

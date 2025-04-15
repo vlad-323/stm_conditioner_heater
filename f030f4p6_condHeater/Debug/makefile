@@ -60,8 +60,8 @@ all: main-build
 main-build: f030f4p6_condHeater.elf secondary-outputs
 
 # Tool invocations
-f030f4p6_condHeater.elf f030f4p6_condHeater.map: $(OBJS) $(USER_OBJS) /home/vladislav/STM32CubeIDE/workspace/f030f4p6_condHeater/STM32F030F4PX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "f030f4p6_condHeater.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"/home/vladislav/STM32CubeIDE/workspace/f030f4p6_condHeater/STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f030f4p6_condHeater.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+f030f4p6_condHeater.elf f030f4p6_condHeater.map: $(OBJS) $(USER_OBJS) /home/vladislav/Загальне/stm_conditioner_heater/f030f4p6_condHeater/STM32F030F4PX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "f030f4p6_condHeater.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"/home/vladislav/Загальне/stm_conditioner_heater/f030f4p6_condHeater/STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f030f4p6_condHeater.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
